@@ -1,0 +1,6 @@
+framework module Pods_MVVMWallUITests {
+  umbrella header "Pods-MVVMWallUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

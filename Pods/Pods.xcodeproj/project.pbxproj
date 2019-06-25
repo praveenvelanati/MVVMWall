@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0228FD1481A12A1C7078CF72D504F4AD /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00798D9A299DC30EF51DD333673D8FF /* FontAwesome.swift */; };
+		11282F7F088A83BDFD77DA63214679EF /* SwiftIconFont+UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27F4EDB21465C46CE959CB89372EB12 /* SwiftIconFont+UITabBarItem.swift */; };
+		12470B8CCCE4AAD4084F089D2922E113 /* SwiftIconStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A0E12124AE0233D63170EB0DB1B85 /* SwiftIconStepper.swift */; };
+		1420E69E93E5BE0FEF3D9BACD2BA334C /* SwiftIconFont+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE778C8926CAC7CE7D99554AE6C9A8DB /* SwiftIconFont+UILabel.swift */; };
+		16998AC24D2A8950949D92E3D0D7A0EF /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FE779E26DAC3259C5BA550DBFFB72 /* FontLoader.swift */; };
+		20E1A373021410CF2973EE304D9D7F9C /* Octicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CE773936EC2297E230838DFF5C6AF /* Octicon.swift */; };
+		30F91BB56B04D4E9A93881C9136F495B /* SwiftIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98D558C254DAF1BE90BCCFCF49F325 /* SwiftIconFont.swift */; };
+		4878B3A14F766BE23C35BD53281DAD17 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C6903BC0DF586CF5179EB9369CAB736 /* open-iconic.ttf */; };
+		4E234A6FEBFE8B710640650586DFABFE /* Pods-MVVMWallUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B527CAFC82C0C57FAA001F9AE7A7A953 /* Pods-MVVMWallUITests-dummy.m */; };
+		5752F2E23CC5D4F0A4B7E8BFD6013BD0 /* SwiftIconFont+NSRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A217E94C99DE9618B1B53B4BFB81EC9 /* SwiftIconFont+NSRange.swift */; };
+		589CC15A8949B8BEAFE65E63163F9225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		59C3AAB78BEAFD18485E8C4522F4B93B /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E0449CA7BE6D664CFCA234BB311543 /* MaterialIcons-Regular.ttf */; };
+		5A40B12C84D33F9E26A67E8832281908 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 054EB4AD107EC344F74CA62017AF016B /* Ionicons.ttf */; };
+		5C6C654747C6B1321D5E3B544AF40239 /* Pods-MVVMWallUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1842DA9E561B554EA75DF1B7BB1808C /* Pods-MVVMWallUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D6A272D04C20A5EB546AB2E7B60775 /* Segoe mdl2 assets.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56576EFF52A45EC5A685CD3CEE9111C5 /* Segoe mdl2 assets.ttf */; };
+		654A3A4EAA2348EAC6023E7DA9727533 /* MapIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDEF0D99B67375F495A9C52F02E10FE /* MapIcon.swift */; };
+		6A26D0EEBD210C2A6002E9591F510AC8 /* SwiftIconFont+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3460AC477E8D025321731D710B90F00 /* SwiftIconFont+UIImage.swift */; };
+		6A764FFC6A50E3D0479BB8038B66682F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		70BFDBC27859F5599154D920F6F0A4D6 /* Pods-MVVMWall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5909A611D32BB3E2DA75065DC1984A14 /* Pods-MVVMWall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73FDAAEF7C2C11A7EE0B9853B22FBF78 /* SwiftIconFont+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6445A3B35DB44B8E8FE0E00E2A220119 /* SwiftIconFont+UIImageView.swift */; };
+		759EC7A6AD693DEBB3EC693133DE8AD5 /* SegoeMDL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D08611FD5E21DF072E6092C5657C2 /* SegoeMDL2.swift */; };
+		7B06AADA87AEA29E060B056A13B3F086 /* SwiftIconFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591F0ACBA885E437AB8ADA47F7DABB7 /* SwiftIconFontView.swift */; };
+		7B5BE97C2631EE9C4297077996165FDD /* SwiftIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B576ED036C3C9055F5CF9A928590D /* SwiftIconLabel.swift */; };
+		81FA663BBD653125355C62828639099E /* SwiftIconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8707CE52AD6BFCF62427CBD9202248 /* SwiftIconTextView.swift */; };
+		851E60356E8A18C93E17FF5A37ED541F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861A35AF2C0D8EAD806CF0C263B537DA /* octicons.ttf */; };
+		8E451AB956BAE94F5EF4A57E9C25CB11 /* SwiftIconFont+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6215EF1966CF449758E6B73A80A53A8B /* SwiftIconFont+UIButton.swift */; };
+		9900658593B32C79ABE4CEF259E47C43 /* ThemifyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58359802D9A33E312FB1C3A6B38E47FE /* ThemifyIcon.swift */; };
+		A450509C3E5F9A183F71FB4ACCFC1525 /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4460982B8E3B60A12414440DEA4581 /* IonIcons.swift */; };
+		A8FF4C16397F99D8968E62D3432A791D /* SwiftIconBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77A881BAB6EA1DF3560A5A34C4DC555 /* SwiftIconBarButtonItem.swift */; };
+		AA021099F1E8B05BDC14887DF159A90F /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 590B28C263F4CF8F82344FFC44B00969 /* themify.ttf */; };
+		AB40023300B0F8394316102D8BAF543B /* SwiftIconFont+UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BC188F6BFDE633EC47C11EBC6F49C /* SwiftIconFont+UIBarButtonItem.swift */; };
+		B5FFFDD68BF0552F6BBE54496EC47C7D /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D37D361196CAE93A65F37FC5CCCB1AEE /* map-icons.ttf */; };
+		BE9ADEA9AE3A2C45BE257A2F407F37C3 /* SwiftIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB75F6A01BD82FEC1E31D822E863A68 /* SwiftIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C468E39C65807B4E9755A7D6BF1D6B8D /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161EECA1547FFFEA9DEC200197B1634C /* MaterialIcon.swift */; };
+		C4C4D464DB3BAFA30EED84A1E6318F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CA919EA3D1D6A98F997DB75965EF56BF /* SwiftIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2558085D468D19AFE4385D5A5D90D0C /* SwiftIconFont-dummy.m */; };
+		CC8052E96B8D5478715C736670CE8940 /* SwiftIconFont+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E313A037B9FD5DDF9CBE2FB1153C1B /* SwiftIconFont+UITextView.swift */; };
+		D6B7799B2460328D33AF849AE060AFA8 /* SwiftIconTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7741793723498EE51B36DFC11EAB69 /* SwiftIconTabBarItem.swift */; };
+		D72499553114A5AED4F86238B61AE2BB /* SwiftIconFont+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA005E7EEA03E688E122B286A345650C /* SwiftIconFont+String.swift */; };
+		D79E28809071B97CC8766D8E9DC4AD0C /* SwiftIconFont+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157EE4959DEA61FC2760199B806FA50C /* SwiftIconFont+UITextField.swift */; };
+		D82E7EBDE5C63D732F3C258B2303B9EF /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E59FF0BE51C47DCC69B0980194877A6 /* FontAwesome.ttf */; };
+		DA105C1E7C5A498798017AD3C3693B6D /* SwiftIconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756B649F042277A9311576B0D87B01F /* SwiftIconTextField.swift */; };
+		E2CA6E05928D543BA1FFDBB3FE6C58FC /* SwiftIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F1986C48D81917EE2648C46FF6B06F /* SwiftIconButton.swift */; };
+		E5E1DEE3E5E51714B29BFFFD52827084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F797D5F43FE1CBE3C1A76C9A676B002E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		FBAEBA1415B88552881A8E8162C831EC /* Pods-MVVMWall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB7E98E32D45BE7B897365AF5E6ED6 /* Pods-MVVMWall-dummy.m */; };
+		FC3CD42DEDD862659CA1DA65396F9819 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D97DC76AEDEEE45B7032EB68C423A4 /* Iconic.swift */; };
+		FD2EB8B128DD9B1535AC8449CE722EBE /* Pods-MVVMWallTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA596B0BD46038848730D347F89777 /* Pods-MVVMWallTests-dummy.m */; };
+		FE47A71266F2F74E93E15C2EBA54A649 /* Pods-MVVMWallTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3872112142EE0D4BA38B89E4FB27335 /* Pods-MVVMWallTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		980A819603200E0FBA2D68B7AD0B7904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C55B110F02725BCA4A3745CF5BACA5E;
+			remoteInfo = SwiftIconFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041CE773936EC2297E230838DFF5C6AF /* Octicon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Octicon.swift; path = SwiftIconFont/Classes/Fonts/Octicon.swift; sourceTree = "<group>"; };
+		054EB4AD107EC344F74CA62017AF016B /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Ionicons.ttf; path = SwiftIconFont/Resources/Ionicons.ttf; sourceTree = "<group>"; };
+		0B0B245C3E2F14C34D4EE1548D685407 /* Pods-MVVMWallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMWallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D3D9F2CA16A0289F90AE7E12949280A /* Pods-MVVMWallUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVMWallUITests-resources.sh"; sourceTree = "<group>"; };
+		136F4A779980668FDDCA3848ECC95673 /* Pods-MVVMWall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMWall.modulemap"; sourceTree = "<group>"; };
+		14BB7E98E32D45BE7B897365AF5E6ED6 /* Pods-MVVMWall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMWall-dummy.m"; sourceTree = "<group>"; };
+		157EE4959DEA61FC2760199B806FA50C /* SwiftIconFont+UITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UITextField.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UITextField.swift"; sourceTree = "<group>"; };
+		161EECA1547FFFEA9DEC200197B1634C /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialIcon.swift; path = SwiftIconFont/Classes/Fonts/MaterialIcon.swift; sourceTree = "<group>"; };
+		1A217E94C99DE9618B1B53B4BFB81EC9 /* SwiftIconFont+NSRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+NSRange.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+NSRange.swift"; sourceTree = "<group>"; };
+		1A4460982B8E3B60A12414440DEA4581 /* IonIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IonIcons.swift; path = SwiftIconFont/Classes/Fonts/IonIcons.swift; sourceTree = "<group>"; };
+		1C6903BC0DF586CF5179EB9369CAB736 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "open-iconic.ttf"; path = "SwiftIconFont/Resources/open-iconic.ttf"; sourceTree = "<group>"; };
+		26D97DC76AEDEEE45B7032EB68C423A4 /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iconic.swift; path = SwiftIconFont/Classes/Fonts/Iconic.swift; sourceTree = "<group>"; };
+		2756B649F042277A9311576B0D87B01F /* SwiftIconTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconTextField.swift; path = SwiftIconFont/Classes/UI/SwiftIconTextField.swift; sourceTree = "<group>"; };
+		3D7741793723498EE51B36DFC11EAB69 /* SwiftIconTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconTabBarItem.swift; path = SwiftIconFont/Classes/UI/SwiftIconTabBarItem.swift; sourceTree = "<group>"; };
+		42E313A037B9FD5DDF9CBE2FB1153C1B /* SwiftIconFont+UITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UITextView.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UITextView.swift"; sourceTree = "<group>"; };
+		47FA596B0BD46038848730D347F89777 /* Pods-MVVMWallTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMWallTests-dummy.m"; sourceTree = "<group>"; };
+		4CDEF0D99B67375F495A9C52F02E10FE /* MapIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapIcon.swift; path = SwiftIconFont/Classes/Fonts/MapIcon.swift; sourceTree = "<group>"; };
+		508C05BE6486B2F36749FBDC97A181E6 /* Pods-MVVMWallUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMWallUITests.modulemap"; sourceTree = "<group>"; };
+		5591F0ACBA885E437AB8ADA47F7DABB7 /* SwiftIconFontView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFontView.swift; path = SwiftIconFont/Classes/UI/SwiftIconFontView.swift; sourceTree = "<group>"; };
+		56576EFF52A45EC5A685CD3CEE9111C5 /* Segoe mdl2 assets.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Segoe mdl2 assets.ttf"; path = "SwiftIconFont/Resources/Segoe mdl2 assets.ttf"; sourceTree = "<group>"; };
+		58359802D9A33E312FB1C3A6B38E47FE /* ThemifyIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemifyIcon.swift; path = SwiftIconFont/Classes/Fonts/ThemifyIcon.swift; sourceTree = "<group>"; };
+		5909A611D32BB3E2DA75065DC1984A14 /* Pods-MVVMWall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMWall-umbrella.h"; sourceTree = "<group>"; };
+		590B28C263F4CF8F82344FFC44B00969 /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = themify.ttf; path = SwiftIconFont/Resources/themify.ttf; sourceTree = "<group>"; };
+		5A8707CE52AD6BFCF62427CBD9202248 /* SwiftIconTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconTextView.swift; path = SwiftIconFont/Classes/UI/SwiftIconTextView.swift; sourceTree = "<group>"; };
+		5AE1BB43CD72E1E1D933EA1F813C7F56 /* Pods-MVVMWallUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVMWallUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5B05F863D66E0C65BDB3C91E33D01086 /* SwiftIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftIconFont.xcconfig; sourceTree = "<group>"; };
+		6215EF1966CF449758E6B73A80A53A8B /* SwiftIconFont+UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UIButton.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UIButton.swift"; sourceTree = "<group>"; };
+		631A0DD20F1DF9CE045F31CDB3DB833D /* Pods_MVVMWallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMWallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6445A3B35DB44B8E8FE0E00E2A220119 /* SwiftIconFont+UIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UIImageView.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UIImageView.swift"; sourceTree = "<group>"; };
+		65C754EFAAD6885C6F4C795E7494DF0F /* SwiftIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIconFont-prefix.pch"; sourceTree = "<group>"; };
+		6A4EBD9A9AC68629B00F826F63B0C263 /* Pods_MVVMWallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMWallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3B576ED036C3C9055F5CF9A928590D /* SwiftIconLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconLabel.swift; path = SwiftIconFont/Classes/UI/SwiftIconLabel.swift; sourceTree = "<group>"; };
+		72E54ADA9467708BA4594F35B21917D9 /* Pods-MVVMWallTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMWallTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74A229EBBCFF8A61A5D4B01DF9EF725E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3F55B162045A6F97B3FB70477D47D8 /* Pods-MVVMWallUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMWallUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80595EA92DAFB243A9A321D42E23B90C /* Pods-MVVMWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMWallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		861A35AF2C0D8EAD806CF0C263B537DA /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = octicons.ttf; path = SwiftIconFont/Resources/octicons.ttf; sourceTree = "<group>"; };
+		8B4A0E12124AE0233D63170EB0DB1B85 /* SwiftIconStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconStepper.swift; path = SwiftIconFont/Classes/UI/SwiftIconStepper.swift; sourceTree = "<group>"; };
+		8E59FF0BE51C47DCC69B0980194877A6 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = SwiftIconFont/Resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		8EB75F6A01BD82FEC1E31D822E863A68 /* SwiftIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftIconFont-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960FE779E26DAC3259C5BA550DBFFB72 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = SwiftIconFont/Classes/FontLoader.swift; sourceTree = "<group>"; };
+		98AE6992057727269569D9DBC668BBC0 /* Pods-MVVMWallUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMWallUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E6C6B18E89C9139D91485EAE01BB38C /* SwiftIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E0449CA7BE6D664CFCA234BB311543 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "MaterialIcons-Regular.ttf"; path = "SwiftIconFont/Resources/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		A88BC188F6BFDE633EC47C11EBC6F49C /* SwiftIconFont+UIBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UIBarButtonItem.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		A8C73449C27691450AB2226C96D5A416 /* Pods-MVVMWall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVMWall-frameworks.sh"; sourceTree = "<group>"; };
+		B231C876833981792CEF0E936B3EFA27 /* Pods-MVVMWallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMWallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B388913A8002E389E3EEDB74DDC504A1 /* Pods-MVVMWallTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVMWallTests-resources.sh"; sourceTree = "<group>"; };
+		B527CAFC82C0C57FAA001F9AE7A7A953 /* Pods-MVVMWallUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMWallUITests-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7E8454E179667C8599C3042A50CA037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00798D9A299DC30EF51DD333673D8FF /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = SwiftIconFont/Classes/Fonts/FontAwesome.swift; sourceTree = "<group>"; };
+		C27F4EDB21465C46CE959CB89372EB12 /* SwiftIconFont+UITabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UITabBarItem.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UITabBarItem.swift"; sourceTree = "<group>"; };
+		C388710EEB88A14829942B4B932BDE2A /* Pods-MVVMWallTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVMWallTests-frameworks.sh"; sourceTree = "<group>"; };
+		C59320B7E15D8B8A3D417A1A72B1ECBD /* Pods-MVVMWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMWall.debug.xcconfig"; sourceTree = "<group>"; };
+		CA005E7EEA03E688E122B286A345650C /* SwiftIconFont+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+String.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+String.swift"; sourceTree = "<group>"; };
+		CE778C8926CAC7CE7D99554AE6C9A8DB /* SwiftIconFont+UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UILabel.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UILabel.swift"; sourceTree = "<group>"; };
+		CF704659ED61C71B2300C1C14C53B0FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E6AE3B9D859E0EBFD82295DA97C22E /* SwiftIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftIconFont.modulemap; sourceTree = "<group>"; };
+		D37D361196CAE93A65F37FC5CCCB1AEE /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "map-icons.ttf"; path = "SwiftIconFont/Resources/map-icons.ttf"; sourceTree = "<group>"; };
+		D7D04AED0CB78855891E0509D7E9FAF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC98D558C254DAF1BE90BCCFCF49F325 /* SwiftIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconFont.swift; path = SwiftIconFont/Classes/SwiftIconFont.swift; sourceTree = "<group>"; };
+		E1D8E459831DFB048801679A4DE7DDF4 /* Pods-MVVMWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMWall.release.xcconfig"; sourceTree = "<group>"; };
+		E2558085D468D19AFE4385D5A5D90D0C /* SwiftIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftIconFont-dummy.m"; sourceTree = "<group>"; };
+		E3FC36360552D9874BCB44FFED5AAD0F /* Pods-MVVMWallTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMWallTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E51D08611FD5E21DF072E6092C5657C2 /* SegoeMDL2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegoeMDL2.swift; path = SwiftIconFont/Classes/Fonts/SegoeMDL2.swift; sourceTree = "<group>"; };
+		E77A881BAB6EA1DF3560A5A34C4DC555 /* SwiftIconBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconBarButtonItem.swift; path = SwiftIconFont/Classes/UI/SwiftIconBarButtonItem.swift; sourceTree = "<group>"; };
+		E96D83649F5F6A9E21612C9CBCF15E87 /* Pods-MVVMWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMWallTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBA37FDDC65EB210503A572F086A4A7E /* Pods-MVVMWall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMWall-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC5E2941AE55FDDF94CC4FAD118156DD /* Pods_MVVMWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3535B19DD1F07F4BE4802E30BB935D /* Pods-MVVMWall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVVMWall-resources.sh"; sourceTree = "<group>"; };
+		F1842DA9E561B554EA75DF1B7BB1808C /* Pods-MVVMWallUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMWallUITests-umbrella.h"; sourceTree = "<group>"; };
+		F3460AC477E8D025321731D710B90F00 /* SwiftIconFont+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftIconFont+UIImage.swift"; path = "SwiftIconFont/Classes/Extensions/SwiftIconFont+UIImage.swift"; sourceTree = "<group>"; };
+		F3872112142EE0D4BA38B89E4FB27335 /* Pods-MVVMWallTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMWallTests-umbrella.h"; sourceTree = "<group>"; };
+		F41A2F1BC74E02C1B9CBEDC741BEC572 /* Pods-MVVMWall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMWall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7F1986C48D81917EE2648C46FF6B06F /* SwiftIconButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIconButton.swift; path = SwiftIconFont/Classes/UI/SwiftIconButton.swift; sourceTree = "<group>"; };
+		FF6F168CE3F1B0AACB9FF2F5BFCFAA37 /* Pods-MVVMWallTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMWallTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6427970087A6426CB313532FED21FF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589CC15A8949B8BEAFE65E63163F9225 /* Foundation.framework in Frameworks */,
+				F797D5F43FE1CBE3C1A76C9A676B002E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F10E89376D6F750F818CDE876FEF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C4D464DB3BAFA30EED84A1E6318F0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABE68F693B8EB0E30D804FE0AAB761E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A764FFC6A50E3D0479BB8038B66682F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24E2F4CAA01D2AC86C906B66435649B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E1DEE3E5E51714B29BFFFD52827084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2438AABD508F6BF4EACE11ED93265827 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E59FF0BE51C47DCC69B0980194877A6 /* FontAwesome.ttf */,
+				054EB4AD107EC344F74CA62017AF016B /* Ionicons.ttf */,
+				D37D361196CAE93A65F37FC5CCCB1AEE /* map-icons.ttf */,
+				A5E0449CA7BE6D664CFCA234BB311543 /* MaterialIcons-Regular.ttf */,
+				861A35AF2C0D8EAD806CF0C263B537DA /* octicons.ttf */,
+				1C6903BC0DF586CF5179EB9369CAB736 /* open-iconic.ttf */,
+				56576EFF52A45EC5A685CD3CEE9111C5 /* Segoe mdl2 assets.ttf */,
+				590B28C263F4CF8F82344FFC44B00969 /* themify.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4286F025F325BCDA3B3412BA4B38F626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F93595327A7E4046BAF98FC3C9FE7F3 /* SwiftIconFont */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4286F025F325BCDA3B3412BA4B38F626 /* Pods */,
+				A6883E747381D4E9BCB8AFB84B51152D /* Products */,
+				ACFA97EB8DD6F8BBE812AF0B9E76EC8A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844F0FFA3B27F0017342F24FBC42CED6 /* Pods-MVVMWallTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D04AED0CB78855891E0509D7E9FAF3 /* Info.plist */,
+				FF6F168CE3F1B0AACB9FF2F5BFCFAA37 /* Pods-MVVMWallTests.modulemap */,
+				E3FC36360552D9874BCB44FFED5AAD0F /* Pods-MVVMWallTests-acknowledgements.markdown */,
+				72E54ADA9467708BA4594F35B21917D9 /* Pods-MVVMWallTests-acknowledgements.plist */,
+				47FA596B0BD46038848730D347F89777 /* Pods-MVVMWallTests-dummy.m */,
+				C388710EEB88A14829942B4B932BDE2A /* Pods-MVVMWallTests-frameworks.sh */,
+				B388913A8002E389E3EEDB74DDC504A1 /* Pods-MVVMWallTests-resources.sh */,
+				F3872112142EE0D4BA38B89E4FB27335 /* Pods-MVVMWallTests-umbrella.h */,
+				80595EA92DAFB243A9A321D42E23B90C /* Pods-MVVMWallTests.debug.xcconfig */,
+				E96D83649F5F6A9E21612C9CBCF15E87 /* Pods-MVVMWallTests.release.xcconfig */,
+			);
+			name = "Pods-MVVMWallTests";
+			path = "Target Support Files/Pods-MVVMWallTests";
+			sourceTree = "<group>";
+		};
+		9F93595327A7E4046BAF98FC3C9FE7F3 /* SwiftIconFont */ = {
+			isa = PBXGroup;
+			children = (
+				C00798D9A299DC30EF51DD333673D8FF /* FontAwesome.swift */,
+				960FE779E26DAC3259C5BA550DBFFB72 /* FontLoader.swift */,
+				26D97DC76AEDEEE45B7032EB68C423A4 /* Iconic.swift */,
+				1A4460982B8E3B60A12414440DEA4581 /* IonIcons.swift */,
+				4CDEF0D99B67375F495A9C52F02E10FE /* MapIcon.swift */,
+				161EECA1547FFFEA9DEC200197B1634C /* MaterialIcon.swift */,
+				041CE773936EC2297E230838DFF5C6AF /* Octicon.swift */,
+				E51D08611FD5E21DF072E6092C5657C2 /* SegoeMDL2.swift */,
+				E77A881BAB6EA1DF3560A5A34C4DC555 /* SwiftIconBarButtonItem.swift */,
+				F7F1986C48D81917EE2648C46FF6B06F /* SwiftIconButton.swift */,
+				DC98D558C254DAF1BE90BCCFCF49F325 /* SwiftIconFont.swift */,
+				1A217E94C99DE9618B1B53B4BFB81EC9 /* SwiftIconFont+NSRange.swift */,
+				CA005E7EEA03E688E122B286A345650C /* SwiftIconFont+String.swift */,
+				A88BC188F6BFDE633EC47C11EBC6F49C /* SwiftIconFont+UIBarButtonItem.swift */,
+				6215EF1966CF449758E6B73A80A53A8B /* SwiftIconFont+UIButton.swift */,
+				F3460AC477E8D025321731D710B90F00 /* SwiftIconFont+UIImage.swift */,
+				6445A3B35DB44B8E8FE0E00E2A220119 /* SwiftIconFont+UIImageView.swift */,
+				CE778C8926CAC7CE7D99554AE6C9A8DB /* SwiftIconFont+UILabel.swift */,
+				C27F4EDB21465C46CE959CB89372EB12 /* SwiftIconFont+UITabBarItem.swift */,
+				157EE4959DEA61FC2760199B806FA50C /* SwiftIconFont+UITextField.swift */,
+				42E313A037B9FD5DDF9CBE2FB1153C1B /* SwiftIconFont+UITextView.swift */,
+				5591F0ACBA885E437AB8ADA47F7DABB7 /* SwiftIconFontView.swift */,
+				6F3B576ED036C3C9055F5CF9A928590D /* SwiftIconLabel.swift */,
+				8B4A0E12124AE0233D63170EB0DB1B85 /* SwiftIconStepper.swift */,
+				3D7741793723498EE51B36DFC11EAB69 /* SwiftIconTabBarItem.swift */,
+				2756B649F042277A9311576B0D87B01F /* SwiftIconTextField.swift */,
+				5A8707CE52AD6BFCF62427CBD9202248 /* SwiftIconTextView.swift */,
+				58359802D9A33E312FB1C3A6B38E47FE /* ThemifyIcon.swift */,
+				2438AABD508F6BF4EACE11ED93265827 /* Resources */,
+				BD4AEAD3CB508178B8359C893432686F /* Support Files */,
+			);
+			path = SwiftIconFont;
+			sourceTree = "<group>";
+		};
+		A6883E747381D4E9BCB8AFB84B51152D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E2941AE55FDDF94CC4FAD118156DD /* Pods_MVVMWall.framework */,
+				6A4EBD9A9AC68629B00F826F63B0C263 /* Pods_MVVMWallTests.framework */,
+				631A0DD20F1DF9CE045F31CDB3DB833D /* Pods_MVVMWallUITests.framework */,
+				9E6C6B18E89C9139D91485EAE01BB38C /* SwiftIconFont.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B0528510FE2FD18DC2FCB310A7706F /* Pods-MVVMWall */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8454E179667C8599C3042A50CA037 /* Info.plist */,
+				136F4A779980668FDDCA3848ECC95673 /* Pods-MVVMWall.modulemap */,
+				F41A2F1BC74E02C1B9CBEDC741BEC572 /* Pods-MVVMWall-acknowledgements.markdown */,
+				EBA37FDDC65EB210503A572F086A4A7E /* Pods-MVVMWall-acknowledgements.plist */,
+				14BB7E98E32D45BE7B897365AF5E6ED6 /* Pods-MVVMWall-dummy.m */,
+				A8C73449C27691450AB2226C96D5A416 /* Pods-MVVMWall-frameworks.sh */,
+				ED3535B19DD1F07F4BE4802E30BB935D /* Pods-MVVMWall-resources.sh */,
+				5909A611D32BB3E2DA75065DC1984A14 /* Pods-MVVMWall-umbrella.h */,
+				C59320B7E15D8B8A3D417A1A72B1ECBD /* Pods-MVVMWall.debug.xcconfig */,
+				E1D8E459831DFB048801679A4DE7DDF4 /* Pods-MVVMWall.release.xcconfig */,
+			);
+			name = "Pods-MVVMWall";
+			path = "Target Support Files/Pods-MVVMWall";
+			sourceTree = "<group>";
+		};
+		ACFA97EB8DD6F8BBE812AF0B9E76EC8A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0528510FE2FD18DC2FCB310A7706F /* Pods-MVVMWall */,
+				844F0FFA3B27F0017342F24FBC42CED6 /* Pods-MVVMWallTests */,
+				BA3C900E36DC975397FA1B833C3A6620 /* Pods-MVVMWallUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA3C900E36DC975397FA1B833C3A6620 /* Pods-MVVMWallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74A229EBBCFF8A61A5D4B01DF9EF725E /* Info.plist */,
+				508C05BE6486B2F36749FBDC97A181E6 /* Pods-MVVMWallUITests.modulemap */,
+				98AE6992057727269569D9DBC668BBC0 /* Pods-MVVMWallUITests-acknowledgements.markdown */,
+				7B3F55B162045A6F97B3FB70477D47D8 /* Pods-MVVMWallUITests-acknowledgements.plist */,
+				B527CAFC82C0C57FAA001F9AE7A7A953 /* Pods-MVVMWallUITests-dummy.m */,
+				5AE1BB43CD72E1E1D933EA1F813C7F56 /* Pods-MVVMWallUITests-frameworks.sh */,
+				0D3D9F2CA16A0289F90AE7E12949280A /* Pods-MVVMWallUITests-resources.sh */,
+				F1842DA9E561B554EA75DF1B7BB1808C /* Pods-MVVMWallUITests-umbrella.h */,
+				B231C876833981792CEF0E936B3EFA27 /* Pods-MVVMWallUITests.debug.xcconfig */,
+				0B0B245C3E2F14C34D4EE1548D685407 /* Pods-MVVMWallUITests.release.xcconfig */,
+			);
+			name = "Pods-MVVMWallUITests";
+			path = "Target Support Files/Pods-MVVMWallUITests";
+			sourceTree = "<group>";
+		};
+		BD4AEAD3CB508178B8359C893432686F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF704659ED61C71B2300C1C14C53B0FD /* Info.plist */,
+				D0E6AE3B9D859E0EBFD82295DA97C22E /* SwiftIconFont.modulemap */,
+				5B05F863D66E0C65BDB3C91E33D01086 /* SwiftIconFont.xcconfig */,
+				E2558085D468D19AFE4385D5A5D90D0C /* SwiftIconFont-dummy.m */,
+				65C754EFAAD6885C6F4C795E7494DF0F /* SwiftIconFont-prefix.pch */,
+				8EB75F6A01BD82FEC1E31D822E863A68 /* SwiftIconFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftIconFont";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BC4E660C7D9CC07D4E0D9B9701A4CA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6C654747C6B1321D5E3B544AF40239 /* Pods-MVVMWallUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2B813176ABA6FDF269C6A949E62D33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47A71266F2F74E93E15C2EBA54A649 /* Pods-MVVMWallTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDA957563A84313F6A3A344639EE47C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BFDBC27859F5599154D920F6F0A4D6 /* Pods-MVVMWall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B9A943867F2B784A302AF43E377415 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9ADEA9AE3A2C45BE257A2F407F37C3 /* SwiftIconFont-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C55B110F02725BCA4A3745CF5BACA5E /* SwiftIconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC3812FD0F1DC9A4D1697734EA5CFEB /* Build configuration list for PBXNativeTarget "SwiftIconFont" */;
+			buildPhases = (
+				915A2B230F6830B32546841AE6686CC9 /* Sources */,
+				6427970087A6426CB313532FED21FF6C /* Frameworks */,
+				6F45AC0519D3DC439935531163D72FB1 /* Resources */,
+				A3B9A943867F2B784A302AF43E377415 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftIconFont;
+			productName = SwiftIconFont;
+			productReference = 9E6C6B18E89C9139D91485EAE01BB38C /* SwiftIconFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C7A52646A1F14A8DBC1BA1C3831837B /* Pods-MVVMWallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5EB6C3341D34D701E1BB66BE57AB73 /* Build configuration list for PBXNativeTarget "Pods-MVVMWallUITests" */;
+			buildPhases = (
+				C9D1C1C25DA680AC6EAC7B59D5D67AD6 /* Sources */,
+				66F10E89376D6F750F818CDE876FEF39 /* Frameworks */,
+				1BC4E660C7D9CC07D4E0D9B9701A4CA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MVVMWallUITests";
+			productName = "Pods-MVVMWallUITests";
+			productReference = 631A0DD20F1DF9CE045F31CDB3DB833D /* Pods_MVVMWallUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CDB3BF8513B76A0C58B40C511EA1FE4 /* Pods-MVVMWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09797EDD86DF85E0CA6D46FCD4D9E6E5 /* Build configuration list for PBXNativeTarget "Pods-MVVMWall" */;
+			buildPhases = (
+				069DA8A76DABD2DDDA33670A5CB1342A /* Sources */,
+				B24E2F4CAA01D2AC86C906B66435649B /* Frameworks */,
+				9FDA957563A84313F6A3A344639EE47C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1662BA097995B651A3F2A402C5CC36EA /* PBXTargetDependency */,
+			);
+			name = "Pods-MVVMWall";
+			productName = "Pods-MVVMWall";
+			productReference = EC5E2941AE55FDDF94CC4FAD118156DD /* Pods_MVVMWall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A27EFC97E39F84479F21F352BCC8B20C /* Pods-MVVMWallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B25E299D573338D18A4D530B5E57825 /* Build configuration list for PBXNativeTarget "Pods-MVVMWallTests" */;
+			buildPhases = (
+				6F9B93F1D80E83D080E02045C6B9AD76 /* Sources */,
+				8ABE68F693B8EB0E30D804FE0AAB761E /* Frameworks */,
+				8D2B813176ABA6FDF269C6A949E62D33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MVVMWallTests";
+			productName = "Pods-MVVMWallTests";
+			productReference = 6A4EBD9A9AC68629B00F826F63B0C263 /* Pods_MVVMWallTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6883E747381D4E9BCB8AFB84B51152D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CDB3BF8513B76A0C58B40C511EA1FE4 /* Pods-MVVMWall */,
+				A27EFC97E39F84479F21F352BCC8B20C /* Pods-MVVMWallTests */,
+				9C7A52646A1F14A8DBC1BA1C3831837B /* Pods-MVVMWallUITests */,
+				9C55B110F02725BCA4A3745CF5BACA5E /* SwiftIconFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F45AC0519D3DC439935531163D72FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82E7EBDE5C63D732F3C258B2303B9EF /* FontAwesome.ttf in Resources */,
+				5A40B12C84D33F9E26A67E8832281908 /* Ionicons.ttf in Resources */,
+				B5FFFDD68BF0552F6BBE54496EC47C7D /* map-icons.ttf in Resources */,
+				59C3AAB78BEAFD18485E8C4522F4B93B /* MaterialIcons-Regular.ttf in Resources */,
+				851E60356E8A18C93E17FF5A37ED541F /* octicons.ttf in Resources */,
+				4878B3A14F766BE23C35BD53281DAD17 /* open-iconic.ttf in Resources */,
+				61D6A272D04C20A5EB546AB2E7B60775 /* Segoe mdl2 assets.ttf in Resources */,
+				AA021099F1E8B05BDC14887DF159A90F /* themify.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069DA8A76DABD2DDDA33670A5CB1342A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAEBA1415B88552881A8E8162C831EC /* Pods-MVVMWall-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9B93F1D80E83D080E02045C6B9AD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2EB8B128DD9B1535AC8449CE722EBE /* Pods-MVVMWallTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915A2B230F6830B32546841AE6686CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0228FD1481A12A1C7078CF72D504F4AD /* FontAwesome.swift in Sources */,
+				16998AC24D2A8950949D92E3D0D7A0EF /* FontLoader.swift in Sources */,
+				FC3CD42DEDD862659CA1DA65396F9819 /* Iconic.swift in Sources */,
+				A450509C3E5F9A183F71FB4ACCFC1525 /* IonIcons.swift in Sources */,
+				654A3A4EAA2348EAC6023E7DA9727533 /* MapIcon.swift in Sources */,
+				C468E39C65807B4E9755A7D6BF1D6B8D /* MaterialIcon.swift in Sources */,
+				20E1A373021410CF2973EE304D9D7F9C /* Octicon.swift in Sources */,
+				759EC7A6AD693DEBB3EC693133DE8AD5 /* SegoeMDL2.swift in Sources */,
+				A8FF4C16397F99D8968E62D3432A791D /* SwiftIconBarButtonItem.swift in Sources */,
+				E2CA6E05928D543BA1FFDBB3FE6C58FC /* SwiftIconButton.swift in Sources */,
+				5752F2E23CC5D4F0A4B7E8BFD6013BD0 /* SwiftIconFont+NSRange.swift in Sources */,
+				D72499553114A5AED4F86238B61AE2BB /* SwiftIconFont+String.swift in Sources */,
+				AB40023300B0F8394316102D8BAF543B /* SwiftIconFont+UIBarButtonItem.swift in Sources */,
+				8E451AB956BAE94F5EF4A57E9C25CB11 /* SwiftIconFont+UIButton.swift in Sources */,
+				6A26D0EEBD210C2A6002E9591F510AC8 /* SwiftIconFont+UIImage.swift in Sources */,
+				73FDAAEF7C2C11A7EE0B9853B22FBF78 /* SwiftIconFont+UIImageView.swift in Sources */,
+				1420E69E93E5BE0FEF3D9BACD2BA334C /* SwiftIconFont+UILabel.swift in Sources */,
+				11282F7F088A83BDFD77DA63214679EF /* SwiftIconFont+UITabBarItem.swift in Sources */,
+				D79E28809071B97CC8766D8E9DC4AD0C /* SwiftIconFont+UITextField.swift in Sources */,
+				CC8052E96B8D5478715C736670CE8940 /* SwiftIconFont+UITextView.swift in Sources */,
+				CA919EA3D1D6A98F997DB75965EF56BF /* SwiftIconFont-dummy.m in Sources */,
+				30F91BB56B04D4E9A93881C9136F495B /* SwiftIconFont.swift in Sources */,
+				7B06AADA87AEA29E060B056A13B3F086 /* SwiftIconFontView.swift in Sources */,
+				7B5BE97C2631EE9C4297077996165FDD /* SwiftIconLabel.swift in Sources */,
+				12470B8CCCE4AAD4084F089D2922E113 /* SwiftIconStepper.swift in Sources */,
+				D6B7799B2460328D33AF849AE060AFA8 /* SwiftIconTabBarItem.swift in Sources */,
+				DA105C1E7C5A498798017AD3C3693B6D /* SwiftIconTextField.swift in Sources */,
+				81FA663BBD653125355C62828639099E /* SwiftIconTextView.swift in Sources */,
+				9900658593B32C79ABE4CEF259E47C43 /* ThemifyIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D1C1C25DA680AC6EAC7B59D5D67AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E234A6FEBFE8B710640650586DFABFE /* Pods-MVVMWallUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1662BA097995B651A3F2A402C5CC36EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftIconFont;
+			target = 9C55B110F02725BCA4A3745CF5BACA5E /* SwiftIconFont */;
+			targetProxy = 980A819603200E0FBA2D68B7AD0B7904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199BE3C9DE99FEC0425DABE644D0EB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B05F863D66E0C65BDB3C91E33D01086 /* SwiftIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftIconFont/SwiftIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftIconFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftIconFont/SwiftIconFont.modulemap";
+				PRODUCT_NAME = SwiftIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B6FA96FAA611A62279C49F6E01C059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35681CF2B781C71EA684FAFB5CFD8387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59320B7E15D8B8A3D417A1A72B1ECBD /* Pods-MVVMWall.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVMWall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVMWall/Pods-MVVMWall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVVMWall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3691EFF605EB29787F8A46C5B6BE1D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9EF88FB81CE5F76986BA02DF79600E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B05F863D66E0C65BDB3C91E33D01086 /* SwiftIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftIconFont/SwiftIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftIconFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftIconFont/SwiftIconFont.modulemap";
+				PRODUCT_NAME = SwiftIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD001719E53A435B30C59978E7FC7F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96D83649F5F6A9E21612C9CBCF15E87 /* Pods-MVVMWallTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVMWallTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVMWallTests/Pods-MVVMWallTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVVMWallTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF9D85F3121C7EF20EAE324D1C115464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80595EA92DAFB243A9A321D42E23B90C /* Pods-MVVMWallTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVMWallTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVMWallTests/Pods-MVVMWallTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVVMWallTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBF79377EFB67BDCB5186A40C83A9ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D8E459831DFB048801679A4DE7DDF4 /* Pods-MVVMWall.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVMWall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVMWall/Pods-MVVMWall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVVMWall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD06052B6FE521BD1B59F10E85CDAB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B231C876833981792CEF0E936B3EFA27 /* Pods-MVVMWallUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVMWallUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVMWallUITests/Pods-MVVMWallUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVVMWallUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D31CB3AEBEB0CC5EB6911B4F5D5FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0B245C3E2F14C34D4EE1548D685407 /* Pods-MVVMWallUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MVVMWallUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MVVMWallUITests/Pods-MVVMWallUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MVVMWallUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09797EDD86DF85E0CA6D46FCD4D9E6E5 /* Build configuration list for PBXNativeTarget "Pods-MVVMWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35681CF2B781C71EA684FAFB5CFD8387 /* Debug */,
+				DBF79377EFB67BDCB5186A40C83A9ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC3812FD0F1DC9A4D1697734EA5CFEB /* Build configuration list for PBXNativeTarget "SwiftIconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EF88FB81CE5F76986BA02DF79600E4F /* Debug */,
+				199BE3C9DE99FEC0425DABE644D0EB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5EB6C3341D34D701E1BB66BE57AB73 /* Build configuration list for PBXNativeTarget "Pods-MVVMWallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD06052B6FE521BD1B59F10E85CDAB49 /* Debug */,
+				E9D31CB3AEBEB0CC5EB6911B4F5D5FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B25E299D573338D18A4D530B5E57825 /* Build configuration list for PBXNativeTarget "Pods-MVVMWallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9D85F3121C7EF20EAE324D1C115464 /* Debug */,
+				AD001719E53A435B30C59978E7FC7F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FA96FAA611A62279C49F6E01C059F /* Debug */,
+				3691EFF605EB29787F8A46C5B6BE1D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
