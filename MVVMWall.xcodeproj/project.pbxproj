@@ -42,6 +42,7 @@
 		C357702D22C05BD9008A062A /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357702C22C05BD9008A062A /* SectionViewModel.swift */; };
 		C357702F22C06037008A062A /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357702E22C06037008A062A /* FeedListViewModel.swift */; };
 		C357703122C060F9008A062A /* FeedListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C357703022C060F9008A062A /* FeedListController.swift */; };
+		C3BDA23D269F70F800E20FF3 /* pre-commit in Resources */ = {isa = PBXBuildFile; fileRef = C3BDA23C269F70F700E20FF3 /* pre-commit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		C357702C22C05BD9008A062A /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
 		C357702E22C06037008A062A /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
 		C357703022C060F9008A062A /* FeedListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListController.swift; sourceTree = "<group>"; };
+		C3BDA23C269F70F700E20FF3 /* pre-commit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit"; sourceTree = "<group>"; };
 		D8021F91E5F505C38D440401 /* Pods-MVVMWallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMWallTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMWallTests/Pods-MVVMWallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E357109C7FFC4610F61841EC /* Pods-MVVMWallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMWallTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMWallTests/Pods-MVVMWallTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +189,7 @@
 		C3576FC822C0357C008A062A /* MVVMWall */ = {
 			isa = PBXGroup;
 			children = (
+				C3BDA23C269F70F700E20FF3 /* pre-commit */,
 				C357700D22C04704008A062A /* Resource */,
 				C357700322C03B82008A062A /* ImageDownloadHelper.swift */,
 				C357700A22C04453008A062A /* Service */,
@@ -432,6 +435,7 @@
 				C357701322C04735008A062A /* sample2.jpg in Resources */,
 				C357701922C0474C008A062A /* sample5.jpg in Resources */,
 				C3576FCF22C0357C008A062A /* Main.storyboard in Resources */,
+				C3BDA23D269F70F800E20FF3 /* pre-commit in Resources */,
 				C357700F22C0471C008A062A /* profile.jpg in Resources */,
 				C357701122C0472A008A062A /* sample.jpg in Resources */,
 			);
