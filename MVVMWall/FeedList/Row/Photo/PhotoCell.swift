@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import SwiftIconFont
+
 
 class PhotoCell: UITableViewCell, CellConfigurable {
    

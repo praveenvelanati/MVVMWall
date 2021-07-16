@@ -10,6 +10,7 @@
 		0AF0985FB0234BC0AA7457D6 /* Pods_MVVMWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7438FBE58D0813F8937222 /* Pods_MVVMWall.framework */; };
 		898CBB52D6429C6C08A3D47A /* Pods_MVVMWallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCA3AE7304C0A5310F8D592 /* Pods_MVVMWallTests.framework */; };
 		AAFB33726916AC58BA815B43 /* Pods_MVVMWallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9D7FD4649F3FA9D7AF056 /* Pods_MVVMWallUITests.framework */; };
+		C3185C0826A138080097D616 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3185C0726A138080097D616 /* DetailView.xib */; };
 		C3576FCA22C0357C008A062A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3576FC922C0357C008A062A /* AppDelegate.swift */; };
 		C3576FCC22C0357C008A062A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3576FCB22C0357C008A062A /* ViewController.swift */; };
 		C3576FCF22C0357C008A062A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3576FCD22C0357C008A062A /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 		809F9978B5DACFB105C1A44D /* Pods-MVVMWallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMWallUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMWallUITests/Pods-MVVMWallUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C689FA2C509E23D441FA3BB /* Pods-MVVMWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMWall/Pods-MVVMWall.debug.xcconfig"; sourceTree = "<group>"; };
 		981A193762485AF8DE49730F /* Pods-MVVMWallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMWallUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMWallUITests/Pods-MVVMWallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3185C0726A138080097D616 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		C3576FC622C0357C008A062A /* MVVMWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3576FC922C0357C008A062A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3576FCB22C0357C008A062A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 		C357700D22C04704008A062A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C3185C0726A138080097D616 /* DetailView.xib */,
 				C357700E22C0471C008A062A /* profile.jpg */,
 				C357701422C0473E008A062A /* sample3.jpg */,
 				C357701622C04746008A062A /* sample4.jpg */,
@@ -438,6 +441,7 @@
 				C3BDA23D269F70F800E20FF3 /* pre-commit in Resources */,
 				C357700F22C0471C008A062A /* profile.jpg in Resources */,
 				C357701122C0472A008A062A /* sample.jpg in Resources */,
+				C3185C0826A138080097D616 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
